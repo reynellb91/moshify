@@ -1,3 +1,10 @@
-body {
-  background: gold;
+/*define color palette*/
+:root {
+  /* components colors */
+  --color-primary: #2584ff;
+  --color-secondary: #00d9ff;
+  --color-accent: #ff3400;
+  /* font colors */
+  --color-headings: #1b0706;
+  --color-body: #918ca4;
 }
