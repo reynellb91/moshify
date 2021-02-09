@@ -13,67 +13,18 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to Get Started?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo est
-            delectus quis sit facilis repellendus dicta aperiam aut modi velit,
-            ut officiis, quod laboriosam a.
-          </p>
-        </div>
-        <a href="#" class="btn btn--secondary btn--stretched">Get Started</a>
-      </div>
-    </div>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 1</h2>
-        <svg class="icon icon--white collapsible__chevron">
-          <use xlink:href="images/sprite.svg#chevron"></use>
-        </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis iste
-        nobis repudiandae, impedit aut libero modi harum sapiente quam nisi!
-      </div>
-    </div>
-    <div class="collapsible collapsible--expanded">
-      <header class="collapsible__header">
-        <h2 class="collapsible__heading">Item 2</h2>
-        <svg class="icon icon--white collapsible__chevron">
-          <use xlink:href="images/sprite.svg#chevron"></use>
-        </svg>
-      </header>
-      <div class="collapsible__content">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis iste
-        nobis repudiandae, impedit aut libero modi harum sapiente quam nisi!
-      </div>
-    </div>
-    <section class="block container">
-      <header class="block__header">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolor.
-        </p>
-      </header>
-    </section>
-    <section class="block block--dark block--skewed-right">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolor.
-        </p>
-      </div>
-    </section>
-    <section class="block block--dark block--skewed-left">
-      <div class="container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, dolor.
-        </p>
-      </div>
-    </section>
+    <nav class="nav collapsible collapsible--expanded">
+      <a class="nav__brand" href="/"><img src="images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#">Hosting</a></li>
+        <li class="nav__item"><a href="#">VPN</a></li>
+        <li class="nav__item"><a href="#">Domain</a></li>
+        <li class="nav__item"><a href="#">Pricing</a></li>
+      </ul>
+    </nav>
     <script src="js/main.js"></script>
   </body>
 </html>
